@@ -79,6 +79,11 @@ They execute during the build process and should be configured in the <build/> e
 <b>Reporting plugins</b><br>
 They execute during the site generation process and they should be configured in the <reporting/> element of the pom.xml.
 
+### What is SNAPSHOT?
+
+SNAPSHOT is a special version that indicates a current development copy. Unlike regular versions, Maven checks for a new SNAPSHOT version in a remote repository for every build.<br>
+
+Now data-service team will release SNAPSHOT of its updated code every time to repository, say data-service: 1.0-SNAPSHOT, replacing an older SNAPSHOT jar.<br>
 
 
 
